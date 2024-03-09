@@ -1,0 +1,64 @@
+body{
+    background: aqua;
+}
+
+input{
+    display:block;
+    margin:auto;
+    height:30px;
+    width:40%;
+    border-radius: 10px;
+}
+.box{
+    border: solid 1px black;
+    weight:auto;
+    height:400px;
+    width:300px;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+}
+.c1{
+    background: red;
+}
+.c2{
+    background-color: violet;
+}
+@media screen and (min-width:200px) and (max-width:400px){  /*space should be given for media screen and for and ..*/
+    body{
+        background: yellowgreen;
+    }
+    input{
+        width:80%; /* here in output we enlarge the page means it acts according to our given dimensions*/ 
+    }
+} /* in output to check colors go to inspect and in top there will be toggle device */
+
+@media screen and (min-width:401px) and (max-width:500px) {
+    body{
+        background-color: brown;
+    }
+    input{
+        width:80%;
+    }
+    .box{
+        width:80%;
+        margin:10px auto;
+
+    }
+    .container{
+        display:block;
+    }
+}
+
+
+.box{
+    border: solid 1px black;
+    margin:auto;
+    height:300px;
+    width:300px;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+}

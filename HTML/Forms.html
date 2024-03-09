@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo on forms</title>
+</head>
+<body>
+    <!-- different methods on forms-->
+    <h1>Demo on forms</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="kundanaah">
+        <input type="submit">
+    </form>
+
+    <h1>Demo on forms</h1>
+    <form>
+        <label>Name:</label>
+              <input type="text" name="kundanaah" placeholder="Enter First Name">
+                    <input type="text" name="kundanaah" placeholder="Enter Last Name">
+        <input type="submit">
+
+        <h1>Demo on forms</h1>
+        <form>
+            <label>Name:</label>
+                  <input type="text" name="kundanaah" placeholder="Enter First Name">
+                        <input type="text" name="kundanaah" placeholder="Enter Last Name">
+                        <br><br>
+                        <input type="email" name="kundhu" placeholder="Enter Email Adress">
+                        <br><br>
+            <input type="submit">
+
+            <h1>Demo on forms</h1>
+            <form>
+                <label>Name: <sup>*</sup></label>
+                      <input type="text" name="kundanaah" placeholder="Enter first Name"required>
+                            <input type="text" name="kundanaah" placeholder="Enter Last Name">
+                            <br><br>
+                            <input type="email" name="kundhu" placeholder="Enter Email Adress">
+                            <label>Password:</label>
+                            <input type="password" name="kundhu" placeholder="Enter password">
+                            <br><br>
+                <input type="submit">
+    </form>
+
+    <label>Age:</label>
+    <input type="number" name="age" placeholder="Enter Age" min="0" max="99">
+    <br><br>
+    <input type="submit">
+     
+    <label>Date of birth :</label>
+     <input type="Date" name="dob" min="2013-01-01" max="2025-01-01">
+     <br><br>
+     <input type="submit">
+     <label>Time :</label>
+     <input type="time" name="time">
+     <br><br>
+<!-- in this case we give gender for male ,female and others it will select all the three options-->
+     <label>Gender:</label>
+     <label>Male</label>
+     <input type="radio" name="Male">
+     <label>Female</label>
+     <input type="radio" name="Female">
+     <label>Others</label>
+     <input type="radio" name="Others">
+<!-- here in below case while giving name as gender it will only choose either male ,female or others-->
+
+
+    
+           <label>Gender:</label>
+     <label>Male</label>
+     <input type="radio" name="gender" value="male">
+     <label>Female</label>
+     <input type="radio" name="gender" value="female">
+     <label>Others</label>
+     <input type="radio" name="gender" value="others">
+<br><br>
+     <label>Gender:</label>
+     <label for="M">Male</label>
+     <input type="radio" name="gender" value="male" id="M">
+     <label for="F">Female</label>
+     <input type="radio" name="gender" value="female" id="F">
+     <label for="O">Others</label>
+     <input type="radio" name="gender" value="others" id="O">
+<br><br>
+
+<!-- difference between RADIO and CHECKBOX ;
+RADIO button is used to select single option and CHECKBOX is used to select multiple options.
+* checked attribute is used to select default option i radio or checkbox field.
+* diabled attribute is used to make disabled condition for input field.
+(When we are using disable attribute we can't do any operation or we can't select the option on that input field. )-->
+<!-- CREATION OF DROPDOWN IN WEBPAGE ;
+# <select>tag is used to create the dropdown
+# <option>tag is used to insert the option on the dropdown
+    NOTE ;
+both <select> and <option> tags are paired tags
+    SYNTAX;
+  
+
+
+
+TAGS PRESENT IN FORM TO GROUP HTML ELEMENTS;
+# <fieldset>tag is used to group the related information of tehe input field on webpage
+# <fieldset>tag is paired tag and block level tag
+  <legend> tag is used to give the name for the fieldset
+    <legend>tag is paired tag and inline level tag
+ATTRIBUTES PRSENT IN FORM TAG ;
+# method attribute is used to send the data to the backend by using get and post type 
+# when we are using method="get" we can send the data to the backend,but data is visible in the URL ,to hide the data we are using method="post".
+# action attribute is used to write configured URL.        
+-->
+
+<!-- checkbox can be selected as multiple options if we give as checked ...in output it will displays directly and also same in gender. -->
+     <label>Language :</label>
+     <label>Telugu</label>
+      <input type="checkbox" name="lang" value="tel">
+      <label>English</label>
+      <input type="checkbox" name="lang" value="eng" checked>
+      <label>Hindi</label>
+      <input type="checkbox" name="lang" value="hin">
+      <br><br>
+
+      <label>Places :</label>
+      <select name="plc">
+        <option>Andhra</option>
+        <opton>Anantapur</opton>
+        <option>Goa</option>
+        <option>Thailand</option>
+        <option>Maldives</option>
+      </select> <!-- in execution it is showing suggestions that we entered in above places ...in case if we want to disable one of the place that we wrote in above places.. then we write disabled 
+    ex:in previous code i should delete goa means ...<option disabled >goa</option>-->     
+    <br><br>
+
+    <textarea rows="5" cols="60" name="text" placeholder="commentbox"></textarea><!-- nowadays we are not using  this text area ...before 2016 it was used.-->
+      <br><br>
+<!-- if we want to group the data anything like name and email .. we use fieldset and it will display by grouping name and email in a  box -->
+<fieldset>
+    <legend align="left">login details</legend>
+      <label>Name:</label>
+      <input type="text" name="kundanaah" placeholder="Enter First Name">
+            <input type="text" name="kundanaah" placeholder="Enter Last Name">
+                <input type="email" name="kundhu" placeholder="Enter Email Adress">
+    <br><br>
+
+
+     <input type="range" name="range">
+
+     <input type ="file" name="file">
+
+     <input type ="color" name="color">
+
+     <input type="register" value="Register">
+     <br><br>
+
+     
+
+     <!-- FORM: It is used to collect the data from the end user directly  .from the webpage by using the input feild
+    TAGS: -->
+
+
+
+
+    
+    
+
+
+    
+</body>
+</html>

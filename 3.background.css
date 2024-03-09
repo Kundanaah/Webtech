@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+
+
+
+/*
+repeat(default): repeating the background images
+no-repeat:to display single image on background
+repeat-x:background images are displayed in x-axis(horizontal way)
+repeat-y:background images are displayed in y-axis(vertical way) 
+
+

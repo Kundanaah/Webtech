@@ -1,0 +1,40 @@
+/* descendent selector combinator(space)*/
+div p{
+    color:blueviolet;
+}/* here we given space ..so the names which are in div tag that only it will change color and if we want to display kundhana1and kundhana3 color so in code ..div>p{....like that*/
+
+    div>p{
+        background-color: aqua;
+    }
+
+    div+p{
+        background-color: gray;
+    }
+    /*NOTE:
+    div  p -)p1 p2 p3 it is getting efected to p1 p2 p3
+    div>p  -)p1 p3 it is getting efected to p1 p3
+    div+p -)p4 it is getting efected to p4
+    div~p -) it is getting effected to p4 p5
+     */
+
+    div~p{
+        background-color: yellowgreen;
+    }
+    
+    /*COMBINATORS:
+     A combinator is the selectors that are having the relatively between the two or more selectors
+
+     TYPES OF COMBINATORS:
+      1.DESCENDENT SELECTOR:
+       * 2 selectors are separated with (space)
+       * The descendent selector matches all the elements that are descendent of a specified element
+      2.CHILD SELECTOR CM=OMBINATOR:
+      * 2 selectors are separated with (>)
+      * The child selector selects all the elements that are the direct children of a specified element
+      3.ADJACENT SELECTOR COMBINATOR:
+      * 2 selectors are separated with (+)
+      * The adjacent siblings selector is used to select an element that is directly after another specified elements
+      4.GENERAL SELECTOR COMBINATOR:
+      * 2 selector are separated with(~)
+      * The general siblings selector select all the elements that are not siblings of a specified elements*/
+

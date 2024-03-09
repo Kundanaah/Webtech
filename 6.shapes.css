@@ -1,0 +1,114 @@
+.Square{
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    height: 150px;
+    width:150px;
+    background-color:aqua;
+}
+
+.rect{
+    border-style: solid;
+    border-width: 10px;
+    border-color: blueviolet;
+    height: 150px;
+    width:100px;
+    background-color:aqua;
+}
+
+.Circle{
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    height: 100px;
+    width:100px;
+    border-radius: 150px;
+    background-color:aqua;
+}
+
+.Circle{
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-color:aqua;
+}
+
+
+.Ovel{
+    border-style: solid;
+    border-width: 10px; 
+    border-color: blueviolet;
+    height: 150px;
+    width:100px;
+    border-radius: 50%;
+    background-color:aqua;
+}
+
+.tri{
+    border:solid 1px black;
+    height:100px;
+    width:100px;
+    border-top: solid 100px red;
+    border-right:solid 150px yellow;
+    border-bottom:solid 150px blue;
+    border-left:solid 100px pink;
+}
+/* after doing this we get cube ..for this only thing we have to change is colour that is white for one side ..so that it will become traingle*/
+
+.Leaf{
+    border:solid 1px green;
+    border-width: 5px;
+    height:50px;
+    width:50px;
+    border-top-left-radius:100px ;
+    border-bottom-right-radius: 100px;
+    background-color: green;
+}
+
+/*
+border rules:
+1 value: All 4 corners
+2 value: (top left and bottom left),(top right and bottom right)
+3 value:(TL),(TR &BL),(BR)*/
+
+.box{
+    border:solid 2px black;
+    height:300px;
+    width:50%;
+    text-align: justify;
+    overflow: auto;
+    /*hidden/scroll/auto*/
+
+}
+
+.boxshadow
+{
+    border:solid 2px black;
+    height:300px; 
+    width:50%;
+    text-align: justify;
+    overflow: auto;
+    box-shadow: 10px 10px 5px greenyellow;
+}
+
+.Heart{
+    border:solid 10px red;
+    border-width: 5px;
+    height: 340px;
+    width:50%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px; 
+    
+
+}
+
+
+
+
+
+
+
+ 

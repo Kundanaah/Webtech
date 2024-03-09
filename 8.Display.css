@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+
+}
+
+a{
+    background:aqua ;
+    display:block;
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin:10px auto;
+}
+
+.box{
+    border: solid 1px black;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+.c1{
+    background-color: red;
+}
+.c2{
+    background-color: aqua;
+}
+.c3{
+    background-color: yellowgreen;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;/* space even /centre...*/
+    
+}
+
+.text{
+    border: solid 1px black;
+    height: 150px;
+    width:150px;
+    background-color: blueviolet;
+    margin:auto;
+
+    font-weight: bolder;
+    font-family:cursive ;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    border: solid 1px black;
+    height:150px;
+    width:150px;
+    background-color: blue;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circle{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+input{
+    display: block;
+    margin:10px auto;
+    height:30px;
+    width:40px;
+}
+/*Attributes Selector*/
+input[type="submit"]{
+    width: 40px;
+    
+}

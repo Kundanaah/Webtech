@@ -1,0 +1,37 @@
+.box{
+    border:solid 1px black;
+    height:150px;
+    width:200px;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.lg1{
+    background-image:linear-gradient(black,gray);
+}
+.lg2{
+    background-image: linear-gradient(to bottom,purple,black);
+}
+/*to bottom(default)/to top/to left/to right*/
+.lg3{
+    background-image: linear-gradient(to top left ,aqua,yellowgreen,gray);
+}
+/* to top left /to top right/to bottom left/to bottom right*/
+
+.container1{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.rg1{
+    background-image:radial-gradient(purple,green,violet);
+}
+.rg2{
+    background-image: radial-gradient(black,red,purple);
+}
+.rg3{
+    background-image: radial-gradient(yellowgreen,pink,aqua);
+}

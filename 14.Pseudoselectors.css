@@ -1,0 +1,97 @@
+button,a{
+    display:block;
+    margin:auto;
+    height:30px;
+    width:30%;
+    font-weight: bolder;
+    border:solid 1px black;
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 10px 7px blue;
+}
+
+button:hover{
+    background-color: black;/* here if we keep cursor on click here then only colour will come*/
+    color:white
+}/* here for next click here line .. we need to write <br> in html*/
+
+
+
+a{
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: small;
+}/* important ques- default property present in <a>tag
+text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: small;*/
+
+a:active{
+    background-color: aquamarine;
+    border:solid 1px black;
+}    /* here for second click here .. we have to click in order to get color*/
+
+.box{
+    border:solid 1px black;
+    height:150px;
+    width:150px;
+    background-color:greenyellow;
+    margin:auto;
+    transition:all;
+}    
+.box:hover{
+    background-color: aqua;
+    border-radius: 50%;/* in output when we cursor on box it will change into circle*/
+}
+
+.box:active{
+    border-radius: 50%;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width:40%;
+    height:30px;
+    border:none;
+    border-bottom: solid 1px black;
+    border:solid 1px black;
+    border-radius: 10px;
+    
+}
+
+input[type="Submit"]{
+
+    width:20%;
+}
+input:focus{
+    outline: none;
+    transform: scale(1.2);/* here when we cursor enter first name then first name will be zoomed*/
+}
+
+input::placeholder{
+    text-align: center;
+}
+p::first-letter{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: brown;
+}
+p::first-line{
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+}
+p::selection{
+ background-color: aqua;
+ color:rebeccapurple;
+}
